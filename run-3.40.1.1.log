@@ -1,0 +1,228 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< repro:compose-augmentation-repro >------------------
+[INFO] Building compose-augmentation-repro 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] ------------------------------[ quarkus ]-------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ compose-augmentation-repro ---
+[INFO] Deleting /Users/edeandre/.hermes/cache/scratch/repro2/compose-augmentation-repro/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ compose-augmentation-repro ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- quarkus:3.40.1.1:generate-code (default-generate-code) @ compose-augmentation-repro ---
+[INFO] Artifact io.quarkus:quarkus-flyway-postgresql:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-flyway-postgresql:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-jdbc-postgresql-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-jdbc-postgresql-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-devservices-postgresql:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-devservices-postgresql:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-dev:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-dev:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-parent:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-parent:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-dev:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-dev:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-assistant-deployment-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-assistant-deployment-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-narayana-jta-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-narayana-jta-deployment:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-smallrye-health-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-smallrye-health-spi:pom:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-jdbc-postgresql-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-jdbc-postgresql-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-assistant-deployment-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-smallrye-health-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-dev:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-devservices-postgresql:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-dev:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-narayana-jta-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-assistant-deployment-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-smallrye-health-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-datasource-dev:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-kubernetes-service-binding-spi:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-agroal-dev:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-devservices-postgresql:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact io.quarkus:quarkus-narayana-jta-deployment:jar:3.40.1.1 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ compose-augmentation-repro ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 25] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ compose-augmentation-repro ---
+[INFO] Copying 0 resource from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- quarkus:3.40.1.1:generate-code-tests (default-generate-code-tests) @ compose-augmentation-repro ---
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ compose-augmentation-repro ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug parameters release 25] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ compose-augmentation-repro ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+2026-10-29 07:42:20,589 WARN  [io.quarkus.agroal.deployment.AgroalProcessor] (build-19) The Agroal dependency is present but no JDBC datasources have been defined.
+2026-10-29 07:42:20,623 INFO  [org.testcontainers.DockerClientFactory] (build-23) Testcontainers version: 2.0.5
+2026-10-29 07:42:20,700 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-23) Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2026-10-29 07:42:21,021 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-23) Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2026-10-29 07:42:21,210 INFO  [org.testcontainers.DockerClientFactory] (build-23) Docker host IP address is localhost
+2026-10-29 07:42:21,259 INFO  [org.testcontainers.DockerClientFactory] (build-23) Connected to docker: 
+  Server Version: 6.1.4
+  API Version: 1.44
+  Operating System: fedora
+  Total Memory: 9903 MB
+2026-10-29 07:42:21,262 INFO  [org.testcontainers.images.PullPolicy] (build-23) Image pull policy will be performed by: DefaultPullPolicy()
+2026-10-29 07:42:21,263 INFO  [org.testcontainers.utility.ImageNameSubstitutor] (build-23) Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-10-29 07:42:21,264 INFO  [org.testcontainers.DockerClientFactory] (build-23) Checking the system...
+2026-10-29 07:42:21,264 INFO  [org.testcontainers.DockerClientFactory] (build-23) ✔︎ Docker server version should be at least 1.6.0
+2026-10-29 07:42:21,351 INFO  [tc.testcontainers/ryuk:0.14.0] (build-23) Creating container for image: testcontainers/ryuk:0.14.0
+2026-10-29 07:42:21,353 INFO  [org.testcontainers.utility.RegistryAuthLocator] (build-23) Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.14.0, configFile: /Users/edeandre/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /Users/edeandre/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
+2026-10-29 07:42:21,378 INFO  [tc.testcontainers/ryuk:0.14.0] (build-23) Container testcontainers/ryuk:0.14.0 is starting: f1c16ea9150054d43d94ac00fdc04f07cb6bf6da5624d41a2df30a12481dfced
+2026-10-29 07:42:21,881 INFO  [tc.testcontainers/ryuk:0.14.0] (build-23) Container testcontainers/ryuk:0.14.0 started in PT0.529295S
+2026-10-29 07:42:21,887 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-23) Compose is running command: podman compose up -d
+2026-10-29 07:42:21,971 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152) >>>> Executing external compose provider "/usr/local/bin/docker-compose". Please see podman-compose(1) for how to disable this message. <<<<
+2026-10-29 07:42:21,971 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152) 
+2026-10-29 07:42:22,059 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Image docker.io/library/nginx:alpine Pulling 
+2026-10-29 07:42:23,103 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  567a969e0221 Pulling fs layer 0B
+2026-10-29 07:42:23,105 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  d3531b7a4f21 Pulling fs layer 0B
+2026-10-29 07:42:23,105 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  7b9d02243238 Pulling fs layer 0B
+2026-10-29 07:42:23,106 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  1408044c7403 Pulling fs layer 0B
+2026-10-29 07:42:23,107 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  f523b340a6c0 Pulling fs layer 0B
+2026-10-29 07:42:23,107 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  dbb1ef19121a Pulling fs layer 0B
+2026-10-29 07:42:23,182 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  567a969e0221 Download complete 0B
+2026-10-29 07:42:23,182 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  c2fefbef5314 Pulling fs layer 0B
+2026-10-29 07:42:23,367 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  7b9d02243238 Download complete 0B
+2026-10-29 07:42:23,367 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  cbe54b031f3e Pulling fs layer 0B
+2026-10-29 07:42:23,385 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  f523b340a6c0 Download complete 0B
+2026-10-29 07:42:23,393 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  dbb1ef19121a Download complete 0B
+2026-10-29 07:42:23,404 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  c2fefbef5314 Download complete 0B
+2026-10-29 07:42:23,443 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  d3531b7a4f21 Download complete 0B
+2026-10-29 07:42:23,771 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  1408044c7403 Download complete 0B
+2026-10-29 07:42:23,977 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  cbe54b031f3e Download complete 0B
+2026-10-29 07:42:23,977 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  ef9a6e2b45c2 Pulling fs layer 0B
+2026-10-29 07:42:23,978 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  ef9a6e2b45c2 Download complete 0B
+2026-10-29 07:42:23,988 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  ef9a6e2b45c2 Download complete 0B
+2026-10-29 07:42:23,988 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Image docker.io/library/nginx:alpine Pulled 
+2026-10-29 07:42:24,024 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Network quarkus-devservices-compose-augmentation-repro-onajfh_default Creating 
+2026-10-29 07:42:24,024 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Network quarkus-devservices-compose-augmentation-repro-onajfh_default Creating 
+2026-10-29 07:42:24,028 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Network quarkus-devservices-compose-augmentation-repro-onajfh_default Created 
+2026-10-29 07:42:24,028 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Network quarkus-devservices-compose-augmentation-repro-onajfh_default Created 
+2026-10-29 07:42:24,028 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Container quarkus-devservices-compose-augmentation-repro-onajfh-web-1 Creating 
+2026-10-29 07:42:24,064 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Container quarkus-devservices-compose-augmentation-repro-onajfh-web-1 Created 
+2026-10-29 07:42:24,079 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Container quarkus-devservices-compose-augmentation-repro-onajfh-web-1 Starting 
+2026-10-29 07:42:24,154 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17152)  Container quarkus-devservices-compose-augmentation-repro-onajfh-web-1 Started 
+2026-10-29 07:42:24,156 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-23) Compose has finished running
+2026-10-29 07:42:24,202 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-14) Waiting for service web to be ready
+2026-10-29 07:42:24,285 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-14) Service web is ready
+2026-10-29 07:42:24,952 WARN  [io.quarkus.agroal.deployment.AgroalProcessor] (build-13) The Agroal dependency is present but no JDBC datasources have been defined.
+2026-10-29 07:42:24,972 INFO  [org.testcontainers.DockerClientFactory] (build-27) Testcontainers version: 2.0.5
+2026-10-29 07:42:25,252 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-27) Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2026-10-29 07:42:26,093 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-27) Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2026-10-29 07:42:26,108 INFO  [org.testcontainers.DockerClientFactory] (build-27) Docker host IP address is localhost
+2026-10-29 07:42:26,184 INFO  [org.testcontainers.DockerClientFactory] (build-27) Connected to docker: 
+  Server Version: 6.1.4
+  API Version: 1.44
+  Operating System: fedora
+  Total Memory: 9903 MB
+2026-10-29 07:42:26,188 INFO  [org.testcontainers.images.PullPolicy] (build-27) Image pull policy will be performed by: DefaultPullPolicy()
+2026-10-29 07:42:26,188 INFO  [org.testcontainers.utility.ImageNameSubstitutor] (build-27) Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-10-29 07:42:26,189 INFO  [org.testcontainers.DockerClientFactory] (build-27) Checking the system...
+2026-10-29 07:42:26,189 INFO  [org.testcontainers.DockerClientFactory] (build-27) ✔︎ Docker server version should be at least 1.6.0
+2026-10-29 07:42:26,360 INFO  [tc.testcontainers/ryuk:0.14.0] (build-27) Creating container for image: testcontainers/ryuk:0.14.0
+2026-10-29 07:42:26,363 INFO  [org.testcontainers.utility.RegistryAuthLocator] (build-27) Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.14.0, configFile: /Users/edeandre/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /Users/edeandre/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
+2026-10-29 07:42:26,404 INFO  [tc.testcontainers/ryuk:0.14.0] (build-27) Container testcontainers/ryuk:0.14.0 is starting: f836edfdc02a70a1ef0324a2b61c924d83bfc82faa497be26ab31b76a64d8945
+2026-10-29 07:42:27,252 INFO  [tc.testcontainers/ryuk:0.14.0] (build-27) Container testcontainers/ryuk:0.14.0 started in PT0.891601S
+2026-10-29 07:42:27,255 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-27) Compose is running command: podman compose up -d
+2026-10-29 07:42:27,335 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297) >>>> Executing external compose provider "/usr/local/bin/docker-compose". Please see podman-compose(1) for how to disable this message. <<<<
+2026-10-29 07:42:27,336 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297) 
+2026-10-29 07:42:27,863 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Network quarkus-devservices-compose-augmentation-repro-ghvtpq_default Creating 
+2026-10-29 07:42:27,863 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Network quarkus-devservices-compose-augmentation-repro-ghvtpq_default Creating 
+2026-10-29 07:42:27,875 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Network quarkus-devservices-compose-augmentation-repro-ghvtpq_default Created 
+2026-10-29 07:42:27,875 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Network quarkus-devservices-compose-augmentation-repro-ghvtpq_default Created 
+2026-10-29 07:42:27,875 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Container quarkus-devservices-compose-augmentation-repro-ghvtpq-web-1 Creating 
+2026-10-29 07:42:27,961 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Container quarkus-devservices-compose-augmentation-repro-ghvtpq-web-1 Created 
+2026-10-29 07:42:27,979 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Container quarkus-devservices-compose-augmentation-repro-ghvtpq-web-1 Starting 
+2026-10-29 07:42:28,059 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17297)  Container quarkus-devservices-compose-augmentation-repro-ghvtpq-web-1 Started 
+2026-10-29 07:42:28,061 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-27) Compose has finished running
+2026-10-29 07:42:28,465 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-7) Waiting for service web to be ready
+2026-10-29 07:42:28,533 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-7) Service web is ready
+2026-10-29 07:42:28,977 WARN  [io.quarkus.agroal.deployment.AgroalProcessor] (build-12) The Agroal dependency is present but no JDBC datasources have been defined.
+2026-10-29 07:42:28,986 INFO  [org.testcontainers.DockerClientFactory] (build-28) Testcontainers version: 2.0.5
+2026-10-29 07:42:29,053 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-28) Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2026-10-29 07:42:30,351 INFO  [org.testcontainers.dockerclient.DockerClientProviderStrategy] (build-28) Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+2026-10-29 07:42:30,362 INFO  [org.testcontainers.DockerClientFactory] (build-28) Docker host IP address is localhost
+2026-10-29 07:42:30,411 INFO  [org.testcontainers.DockerClientFactory] (build-28) Connected to docker: 
+  Server Version: 6.1.4
+  API Version: 1.44
+  Operating System: fedora
+  Total Memory: 9903 MB
+2026-10-29 07:42:30,414 INFO  [org.testcontainers.images.PullPolicy] (build-28) Image pull policy will be performed by: DefaultPullPolicy()
+2026-10-29 07:42:30,414 INFO  [org.testcontainers.utility.ImageNameSubstitutor] (build-28) Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2026-10-29 07:42:30,415 INFO  [org.testcontainers.DockerClientFactory] (build-28) Checking the system...
+2026-10-29 07:42:30,416 INFO  [org.testcontainers.DockerClientFactory] (build-28) ✔︎ Docker server version should be at least 1.6.0
+2026-10-29 07:42:30,498 INFO  [tc.testcontainers/ryuk:0.14.0] (build-28) Creating container for image: testcontainers/ryuk:0.14.0
+2026-10-29 07:42:30,500 INFO  [org.testcontainers.utility.RegistryAuthLocator] (build-28) Failure when attempting to lookup auth config. Please ignore if you don't have images in an authenticated registry. Details: (dockerImageName: testcontainers/ryuk:0.14.0, configFile: /Users/edeandre/.docker/config.json, configEnv: DOCKER_AUTH_CONFIG). Falling back to docker-java default behaviour. Exception message: Status 404: No config supplied. Checked in order: /Users/edeandre/.docker/config.json (file not found), DOCKER_AUTH_CONFIG (not set)
+2026-10-29 07:42:30,521 INFO  [tc.testcontainers/ryuk:0.14.0] (build-28) Container testcontainers/ryuk:0.14.0 is starting: f4c48b7ab9e2f91d2da4fa4be26e6cd5a5384001422c1ee85416ddc2776d1fd3
+2026-10-29 07:42:30,914 INFO  [tc.testcontainers/ryuk:0.14.0] (build-28) Container testcontainers/ryuk:0.14.0 started in PT0.416101S
+2026-10-29 07:42:30,917 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-28) Compose is running command: podman compose up -d
+2026-10-29 07:42:30,997 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453) >>>> Executing external compose provider "/usr/local/bin/docker-compose". Please see podman-compose(1) for how to disable this message. <<<<
+2026-10-29 07:42:30,998 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453) 
+2026-10-29 07:42:31,160 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Network quarkus-devservices-compose-augmentation-repro-tpiwnc_default Creating 
+2026-10-29 07:42:31,160 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Network quarkus-devservices-compose-augmentation-repro-tpiwnc_default Creating 
+2026-10-29 07:42:31,168 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Network quarkus-devservices-compose-augmentation-repro-tpiwnc_default Created 
+2026-10-29 07:42:31,168 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Network quarkus-devservices-compose-augmentation-repro-tpiwnc_default Created 
+2026-10-29 07:42:31,168 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Container quarkus-devservices-compose-augmentation-repro-tpiwnc-web-1 Creating 
+2026-10-29 07:42:31,209 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Container quarkus-devservices-compose-augmentation-repro-tpiwnc-web-1 Created 
+2026-10-29 07:42:31,230 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Container quarkus-devservices-compose-augmentation-repro-tpiwnc-web-1 Starting 
+2026-10-29 07:42:31,293 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (process-error-consumer-1-"podman"-17453)  Container quarkus-devservices-compose-augmentation-repro-tpiwnc-web-1 Started 
+2026-10-29 07:42:31,295 INFO  [io.quarkus.devservices.deployment.compose.ComposeRunner] (build-28) Compose has finished running
+2026-10-29 07:42:31,657 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-30) Waiting for service web to be ready
+2026-10-29 07:42:31,686 INFO  [io.quarkus.devservices.deployment.compose.ComposeProject] (build-30) Service web is ready
+[INFO] Running repro.ProfileATest
+2026-10-29 07:42:31,997 INFO  [io.quarkus] (main) compose-augmentation-repro 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.40.1.1) started in 11.918s. Listening on: http://localhost:55552
+2026-10-29 07:42:31,997 INFO  [io.quarkus] (main) Profile test activated. 
+2026-10-29 07:42:31,997 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, compose, jdbc-postgresql, narayana-jta, rest, smallrye-context-propagation, vertx]
+>>> TEST START ProfileATest at 07:42:32.099477
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.658 s -- in repro.ProfileATest
+[INFO] Running repro.ProfileBTest
+2026-10-29 07:42:32,497 INFO  [io.quarkus] (main) compose-augmentation-repro stopped in 0.008s
+2026-10-29 07:42:32,676 INFO  [io.quarkus] (main) compose-augmentation-repro 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.40.1.1) started in 0.162s. Listening on: http://localhost:55554
+2026-10-29 07:42:32,676 INFO  [io.quarkus] (main) Profile test activated. 
+2026-10-29 07:42:32,676 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, compose, jdbc-postgresql, narayana-jta, rest, smallrye-context-propagation, vertx]
+>>> TEST START ProfileBTest at 07:42:32.692359
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.356 s -- in repro.ProfileBTest
+[INFO] Running repro.ProfileCTest
+2026-10-29 07:42:32,894 INFO  [io.quarkus] (main) compose-augmentation-repro stopped in 0.006s
+2026-10-29 07:42:33,076 INFO  [io.quarkus] (main) compose-augmentation-repro 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.40.1.1) started in 0.166s. Listening on: http://localhost:55557
+2026-10-29 07:42:33,076 INFO  [io.quarkus] (main) Profile test activated. 
+2026-10-29 07:42:33,076 INFO  [io.quarkus] (main) Installed features: [agroal, cdi, compose, jdbc-postgresql, narayana-jta, rest, smallrye-context-propagation, vertx]
+>>> TEST START ProfileCTest at 07:42:33.090546
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.330 s -- in repro.ProfileCTest
+2026-10-29 07:42:33,223 INFO  [io.quarkus] (main) compose-augmentation-repro stopped in 0.006s
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.511 s
+[INFO] Finished at: 2026-10-29T07:42:33-04:00
+[INFO] ------------------------------------------------------------------------
+exit=0

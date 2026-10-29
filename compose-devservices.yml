@@ -1,0 +1,7 @@
+services:
+  web:
+    image: docker.io/library/nginx:alpine
+    ports:
+      - "80"
+    labels:
+      io.quarkus.devservices.compose.config_map.port.80: repro.web.port
